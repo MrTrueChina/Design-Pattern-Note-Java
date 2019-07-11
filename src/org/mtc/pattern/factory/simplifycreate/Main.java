@@ -7,6 +7,8 @@ package org.mtc.pattern.factory.simplifycreate;
  * 	对于这些对象如果每次都写出一大串语句必然会导致代码混乱、修改困难
  * 	如果这些操作有足够多的相同之处，我们就可以写一个工厂类来负责创建对象，大幅降低复杂度
  * 
+ * 	这个用法是非常常见的用法，很多人已经用了工厂模式但不知道正在用工厂模式
+ * 
  * 	需要注意这个效果建立在“有共同点”的基础上，如果创建对象到可以使用之间的操作提取不出相同点，那么工厂模式是无法简化这个过程的
  */
 public class Main {
@@ -42,8 +44,8 @@ public class Main {
 		
 		////直接在方法里创建并设置，一个对象6行////
 		
-		System.out.println(product1);
-		System.out.println(product2);
+		product1.work();
+		product2.work();
 	}
 
 	/**
@@ -60,8 +62,8 @@ public class Main {
 		Product product2 = Factory.getProduct(size2);
 		
 		//////使用工厂创建，一个对象只要一行//////
-
-		System.out.println(product1);
-		System.out.println(product2);
+		
+		product1.work();
+		product2.work();
 	}
 }
