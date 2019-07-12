@@ -5,4 +5,5 @@ package org.mtc.pattern.builder;
  */
 public class Map {
 
+	// 这个类里储存了地图的每个地块的信息，代码省略
 }

@@ -1,5 +1,7 @@
 package org.mtc.pattern.builder;
 
+import org.mtc.pattern.builder.builders.MapSpowner;
+
 /*
  * 	建造者模式（Builder）：将一个创建过程极为复杂的对象的创建过程拆分到多个建造者中进行，并由一个指挥者控制创建过程
  * 
@@ -12,5 +14,10 @@ package org.mtc.pattern.builder;
  * 	文章附带的演示程序非常精巧
  */
 public class Main {
-
+	public static void main(String[] args) {
+		
+		Map map = MapSpowner.spownMap(); // 建造者模式在最终的使用上和工厂模式是没有任何区别的
+		
+		System.out.println(map);
+	}
 }
