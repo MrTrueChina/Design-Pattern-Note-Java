@@ -7,5 +7,5 @@
 ### 文件夹内容（忽略前缀）
 | 文件夹 | 内容 |
 |-------|:------|
-| pattern/abstractfactory | 抽象工厂模式 |
 | pattern/factory | 工厂模式 |
+| pattern/abstractfactory | 抽象工厂模式 |
