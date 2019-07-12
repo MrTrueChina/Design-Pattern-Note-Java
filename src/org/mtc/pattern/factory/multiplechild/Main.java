@@ -3,7 +3,7 @@ package org.mtc.pattern.factory.multiplechild;
 import org.mtc.pattern.factory.multiplechild.connectors.Connector;
 
 /*
- * 	工厂模式：将对象的创建过程提取到一个单独的类里，将创建和使用分离，创建过程越复杂收益越大
+ * 	工厂模式（Factory）：将对象的创建过程提取到一个单独的类里，将创建和使用分离，创建过程越复杂收益越大
  * 
  * 	工厂模式不易理解的好处：对多种子类的按需创建
  * 
@@ -17,8 +17,8 @@ import org.mtc.pattern.factory.multiplechild.connectors.Connector;
  * 
  * 	然后加上一个巨大的加分情况：
  * 	3.子类变化不可控
- */
-/*
+ * 
+ * 
  * 	这个好处必须处于特殊的情境下才会有效，我来模拟一个数据库连接的效果
  */
 public class Main {

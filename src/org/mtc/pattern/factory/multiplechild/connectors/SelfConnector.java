@@ -1,8 +1,8 @@
 package org.mtc.pattern.factory.multiplechild.connectors;
 
 /**
- * 假设这是一个自研的数据库的连接器<br/>
- * 虽然这是个自写的连接器，但数据库总要更新，连接器也要跟着更新，变化必然会发生，频率和程序更新几乎不可能同步，因此也需要和主体隔离开
+ * 	假设这是一个自研的数据库的连接器<br/>
+ * 	虽然这是个自写的连接器，但数据库总要更新，连接器也要跟着更新，变化必然会发生，频率和程序更新几乎不可能同步，因此也需要和主体隔离开
  */
 public class SelfConnector implements Connector {
 

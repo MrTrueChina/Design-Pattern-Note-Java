@@ -5,7 +5,7 @@ import org.mtc.pattern.factory.multiplechild.connectors.MySQLConnector;
 import org.mtc.pattern.factory.multiplechild.connectors.SelfConnector;
 
 /**
- * 连接器的工厂类，根据配置创建连接器
+ * 	连接器的工厂类，根据配置创建连接器
  */
 public final class ConnectorFectory {
 
