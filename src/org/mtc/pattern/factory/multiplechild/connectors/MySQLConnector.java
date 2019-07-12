@@ -1,4 +1,4 @@
-package org.mtc.pattern.factory.multiplechild;
+package org.mtc.pattern.factory.multiplechild.connectors;
 
 /**
  * 假设这是MySQL的连接器<br/>

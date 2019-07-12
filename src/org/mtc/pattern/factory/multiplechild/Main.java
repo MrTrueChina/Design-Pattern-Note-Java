@@ -1,6 +1,10 @@
 package org.mtc.pattern.factory.multiplechild;
 
+import org.mtc.pattern.factory.multiplechild.connectors.Connector;
+
 /*
+ * 	工厂模式：将对象的创建过程提取到一个单独的类里，将创建和使用分离，创建过程越复杂收益越大
+ * 
  * 	工厂模式不易理解的好处：对多种子类的按需创建
  * 
  * 	这个好处基于良好的继承，最好是面向接口编程：
