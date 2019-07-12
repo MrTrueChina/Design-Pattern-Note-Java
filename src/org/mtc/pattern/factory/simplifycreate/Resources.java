@@ -1,7 +1,7 @@
 package org.mtc.pattern.factory.simplifycreate;
 
 /**
- * 资源类，用来模拟资源
+ * 	资源类，用来模拟资源
  */
 public final class Resources {
 

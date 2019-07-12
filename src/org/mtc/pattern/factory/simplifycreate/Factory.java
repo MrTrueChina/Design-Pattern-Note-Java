@@ -1,7 +1,7 @@
 package org.mtc.pattern.factory.simplifycreate;
 
 /**
- * 创建对象的工厂类
+ * 	创建对象的工厂类
  */
 public final class Factory {
 

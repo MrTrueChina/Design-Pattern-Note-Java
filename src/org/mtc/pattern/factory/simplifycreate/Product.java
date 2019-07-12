@@ -1,7 +1,7 @@
 package org.mtc.pattern.factory.simplifycreate;
 
 /**
- * 一个创建对象后需要很多工序才能使用的类
+ * 	一个创建对象后需要很多工序才能使用的类
  */
 public class Product {
 	/*

@@ -1,7 +1,7 @@
 package org.mtc.pattern.factory.multiplechild;
 
 /**
- * 用这个类来顶替配置文件
+ * 	用这个类来顶替配置文件
  */
 public final class Resources {
 
