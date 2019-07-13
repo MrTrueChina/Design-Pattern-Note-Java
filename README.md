@@ -9,3 +9,6 @@
 |-------|:------|
 | pattern/factory | 工厂模式 |
 | pattern/abstractfactory | 抽象工厂模式 |
+| pattern/singleton | 单例模式 |
+| pattern/builder | 建造者模式 |
+| pattern/prototype | 原型模式 |
