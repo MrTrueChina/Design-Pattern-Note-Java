@@ -12,3 +12,5 @@
 | pattern/singleton | 单例模式 |
 | pattern/builder | 建造者模式 |
 | pattern/prototype | 原型模式 |
+| pattern/adapter | 适配器模式 |
+| pattern/bridge | 桥接模式 |
