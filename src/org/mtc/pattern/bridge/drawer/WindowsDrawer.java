@@ -12,10 +12,8 @@ public class WindowsDrawer extends ImageDrawer {
 	}
 
 	@Override
-	public void draw(String imageFile) {
+	protected void drawMatrix(String matrix) {
 
-		String matrix = _toMatrix.toMatrix(imageFile);
-
-		System.out.println("在Windows系统上，绘制 [" + imageFile + "] 图片，矩阵信息为 [" + matrix + "]");
+		System.out.println("在Windows系统上，绘制矩阵 [" + matrix + "]");
 	}
 }
