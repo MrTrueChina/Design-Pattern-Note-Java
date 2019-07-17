@@ -13,6 +13,8 @@ public class MacDrawer extends ImageDrawer {
 
 	@Override
 	protected void drawMatrix(String matrix) {
+		
+		//绘制矩阵我也不会写，写个输出当做绘制了矩阵
 
 		System.out.println("在MaxOS系统上，绘制矩阵 [" + matrix + "]");
 	}

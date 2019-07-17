@@ -17,6 +17,7 @@ public abstract class ImageDrawer {
 	 */
 	public ImageDrawer(ImageToMatrix toMatrix) {
 		_toMatrix = toMatrix;
+		// 通过构造将部分逻辑对象传进来存入是桥接模式的经典步骤，当然不是必须的，只要能保证获取到对象，具体过程并不重要
 	}
 
 	/**
@@ -27,9 +28,9 @@ public abstract class ImageDrawer {
 	 * @param imageFile
 	 */
 	public final void draw(String imageFile) {
-		
+
 		String matrix = _toMatrix.toMatrix(imageFile);
-		
+
 		drawMatrix(matrix);
 	}
 
