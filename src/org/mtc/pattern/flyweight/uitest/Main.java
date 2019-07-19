@@ -1,14 +1,11 @@
-package org.mtc.pattern.flyweight;
+package org.mtc.pattern.flyweight.uitest;
 
-/*
- * 	享元模式（Flyweight）：
- */
 public class Main {
 	public static void main(String[] args) {
 		demo();
 	}
 
 	private static void demo() {
-
+		
 	}
 }
