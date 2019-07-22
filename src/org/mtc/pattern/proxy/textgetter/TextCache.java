@@ -1,4 +1,4 @@
-package org.mtc.pattern.proxy.image;
+package org.mtc.pattern.proxy.textgetter;
 
 /**
  * 	模拟缓存的类，实际使用时的缓存一般是用第三方的，因为自己写成本高效果还不一定好

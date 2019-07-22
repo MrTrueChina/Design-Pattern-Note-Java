@@ -1,4 +1,4 @@
-package org.mtc.pattern.proxy.image;
+package org.mtc.pattern.proxy.textgetter;
 
 /**
  * `TextGetter的工厂类，使用工厂配合接口来隐藏实现细节

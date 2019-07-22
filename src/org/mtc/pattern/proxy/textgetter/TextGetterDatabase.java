@@ -1,4 +1,4 @@
-package org.mtc.pattern.proxy.image;
+package org.mtc.pattern.proxy.textgetter;
 
 /**
  * 	模拟从数据库中取出文本的类，代理模式中被代理的类

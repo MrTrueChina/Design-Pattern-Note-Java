@@ -1,4 +1,4 @@
-package org.mtc.pattern.proxy.image;
+package org.mtc.pattern.proxy.textgetter;
 
 /**
  * 	TextGetterDatabase 的代理类，负责在有缓存的时候从缓存取数据，没缓存的时候从数据取数据并存入缓存

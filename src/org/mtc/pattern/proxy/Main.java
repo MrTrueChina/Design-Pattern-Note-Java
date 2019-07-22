@@ -1,8 +1,8 @@
 package org.mtc.pattern.proxy;
 
-import org.mtc.pattern.proxy.image.TextCache;
-import org.mtc.pattern.proxy.image.TextGetter;
-import org.mtc.pattern.proxy.image.TextGetterFactory;
+import org.mtc.pattern.proxy.textgetter.TextCache;
+import org.mtc.pattern.proxy.textgetter.TextGetter;
+import org.mtc.pattern.proxy.textgetter.TextGetterFactory;
 
 /*
  * 	代理模式（Proxy）：在内外部类之间增加一个代理类，内部类通过代理类和需要调用的类交流，代理类用于控制访问
