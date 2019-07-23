@@ -17,6 +17,11 @@ public abstract class InfoRecorder {
 		return _next;
 	}
 
+	/**
+	 * 	记录信息<br/>
+	 * 	注意这个方法是final的，因为这个方法负责决定请求是自己解决还是向后抛出，不可更改
+	 * @param info
+	 */
 	public final void record(Info info) {
 		
 		if(recordable(info))

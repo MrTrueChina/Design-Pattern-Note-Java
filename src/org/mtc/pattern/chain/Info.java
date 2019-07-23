@@ -5,21 +5,21 @@ package org.mtc.pattern.chain;
  */
 public class Info {
 
-	private String _info;
+	private String _message;
 	private int _level;
 
-	public Info(String info, int level) {
+	public Info(String message, int level) {
 		super();
-		_info = info;
+		_message = message;
 		_level = level;
 	}
 
-	public String getInfo() {
-		return _info;
+	public String getMessage() {
+		return _message;
 	}
 
-	public void setInfo(String info) {
-		_info = info;
+	public void setMessage(String info) {
+		_message = info;
 	}
 
 	public int getLevel() {

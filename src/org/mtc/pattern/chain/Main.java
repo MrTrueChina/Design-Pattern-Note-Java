@@ -1,5 +1,7 @@
 package org.mtc.pattern.chain;
 
+import org.mtc.pattern.chain.recorder.OperationalRecorder;
+
 /*
  * 	责任链模式（Chain of Responsibility）：将多个可能能够处理请求的类连接成一条链，请求从头到尾传递，直到遇到能够处理的对象并由他处理
  * 	这个模式通过让请求在可能处理请求的类之间传递的方法将调用复杂度拉到最低，但同时会导致效率的下降，设计不当的情况下请求有可能传丢（所有类都处理不了）
@@ -21,5 +23,13 @@ public class Main {
 
 	private static void demo() {
 
+		OperationalRecorder.record(new Info("用户[10086]登录", 0));
+		OperationalRecorder.record(new Info("用户[10086]修改了登录密码", 1000));
+		OperationalRecorder.record(new Info("用户[10086]修改了用户名", 1000));
+		OperationalRecorder.record(new Info("用户[10086]退出登录", 0));
+		OperationalRecorder.record(new Info("用户[10086]登录", 0));
+		OperationalRecorder.record(new Info("用户[10086]通过支付宝支付了10086.00元", 2000));
+		OperationalRecorder.record(new Info("用户[10086]通过支付宝支付了123.15元", 2000));
+		OperationalRecorder.record(new Info("付款接口接收到不正确的参数！", Integer.MAX_VALUE));
 	}
 }
