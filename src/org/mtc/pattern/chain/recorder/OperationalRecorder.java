@@ -22,6 +22,10 @@ public class OperationalRecorder {
 		importantOperationalRecorder.setNext(accidentOperationalRecorder);
 	}
 
+	/**
+	 * 	记录操作记录
+	 * @param info 操作记录
+	 */
 	public static void record(Info info) {
 		_recorder.record(info);
 	}
